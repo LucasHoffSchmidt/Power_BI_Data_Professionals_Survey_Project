@@ -1,5 +1,5 @@
 # Power BI Data Professionals Survey Project
-In this project we analyse the survey answers of data professionals, to discover key insights about the field of data analytics. 
+In this project we used Power BI to analyse the survey answers of data professionals, to discover key insights about the field of data analytics. 
 
 ## Tools and technologies
 - **Power BI**: Data cleaning, data exploration and creation of final dashboard
