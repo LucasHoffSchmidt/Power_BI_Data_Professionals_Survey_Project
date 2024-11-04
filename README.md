@@ -13,9 +13,9 @@ In this project we used Power BI to analyse the survey answers of data professio
 
 ## Analysis steps
 - **Data Cleaning in Power Query Editor**:
-  - Removed irrelevant columns
-  - Consolidated all "Other" responses into a single category
-  - Made an average yearly salary
+  - Removed empty columns
+  - Consolidated all "Other" responses into a single category using divide column by delimiter
+  - Made an average yearly salary by duplicating the salary and using divide column by delimiter and custom column
 - **Data Exploration**:
   - Made a card with the number of survey takers
   - Made a card with the average age of survey takers
