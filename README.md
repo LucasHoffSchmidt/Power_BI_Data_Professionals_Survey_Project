@@ -13,7 +13,7 @@ In this project we used Power BI to analyse the survey answers of data professio
 
 ## Analysis steps
 - **Data Cleaning in Power Query Editor**:
-  - Changed date format from MM/DD/YYYY to DD/MM/YYYY by:
+  - Changed date format from MM/DD/YYYY to DD/MM/YYYY:
     - Changed the format of the date column to text
     - Separated the day, month and year by dividing the column by delimiter
     - Renamed columns to day, month and year
