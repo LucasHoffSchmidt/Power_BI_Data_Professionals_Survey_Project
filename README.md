@@ -13,14 +13,7 @@ In this project we used Power BI to analyse the survey answers of data professio
 
 ## Analysis steps
 - **Data Cleaning in Power Query Editor**:
-  - Changed date format from MM/DD/YYYY to DD/MM/YYYY:
-    - Changed the format of the date column to text
-    - Separated the day, month and year by dividing the column by delimiter
-    - Renamed columns to day, month and year
-    - Changed format of day, month and year columns to text
-    - Added a custom column with the Text.Combine() function to combine the day, month and year with a delimiter
-    - Changed the format of the custom column to date
-    - Replaced day, month and year columns with the new custom date column
+  - Changed date format from MM/DD/YYYY to DD/MM/YYYY by changing the format to text and then back to date using the USA standard
   - Removed empty columns
   - Consolidated all "Other" responses into a single category using divide column by delimiter
   - Made an average yearly salary by duplicating the salary, using divide column by delimiter, custom column and changed format to decimal
