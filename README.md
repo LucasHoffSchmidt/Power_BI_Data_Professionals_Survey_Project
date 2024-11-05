@@ -13,19 +13,29 @@ In this project we used Power BI to analyse the survey answers of data professio
 
 ## Analysis steps
 - **Data Cleaning in Power Query Editor**:
+  - Changed date format from MM/DD/YYYY to DD/MM/YYYY by:
+    - Changed the format of the date column to text
+    - Separated the day, month and year by dividing the column by delimiter
+    - Renamed columns to day, month and year
+    - Changed format of day, month and year columns to text
+    - Added a custom column with the Text.Combine() function to combine the day, month and year with a delimiter
+    - Changed the format of the custom column to date
+    - Replaced day, month and year columns with the new custom date column
   - Removed empty columns
   - Consolidated all "Other" responses into a single category using divide column by delimiter
-  - Made an average yearly salary by duplicating the salary and using divide column by delimiter and custom column
+  - Made an average yearly salary by duplicating the salary, using divide column by delimiter, custom column and changed format to decimal
 - **Data Exploration**:
+  - Made the headline "Data Professionals Survey Breakdown" with a blue background
   - Made a card with the number of survey takers
   - Made a card with the average age of survey takers
-  - Made a stacked bar chart based on the survey takers title and average salary
-  - Made a stacked column chart based on the survey takers favorite programming language and number of survey takers 
-  - Made a treemap based on the survey takers country
+  - Made a stacked bar chart with the survey takers title and average salary
+  - Made a stacked column chart with the survey takers favorite programming language and number of survey takers 
+  - Made a treemap with the survey takers country
   - Made a gauge showing the survey takers average happiness with their work/life balance
   - Made a gauge showing the survey takers average happiness with their salary
-  - Made a donut chart based on how difficult it was for survey takers to break into data
+  - Made a donut chart showing how difficult it was for survey takers to break into data
   - Combined visuals into a dashboard
+  - Made text for visuals concise
   - Updated the theme and colors to make the dashboard more visually appealing
 
 ## Key findings
@@ -39,4 +49,4 @@ In this project we used Power BI to analyse the survey answers of data professio
 
 ## Conclusion
 Data professionals believe they work too much with too little pay. 
-Data scientist is a position worth striving for and python is an intuitive programming language that most data professionals enjoy using. 
+Data scientist is a position worth striving for and python is enjoyed by most data professionals.
