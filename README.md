@@ -8,7 +8,7 @@ In this project we used Power BI to analyse the survey answers of data professio
 - Other projects I have made: [Portfolio Website](https://lucashoffschmidt.github.io/)
 
 ## Tools Used
-- **Power BI**: Data cleaning, exploratory data analysis and dashboard creation.
+- **Power BI**: Data cleaning, data exploration and dashboard creation.
 
 ## Project Objectives
 - Identify patterns amongst data professionals.
@@ -24,7 +24,7 @@ In this project we used Power BI to analyse the survey answers of data professio
   - Removed empty columns.
   - Consolidated all "Other" responses into a single category using divide column by delimiter.
   - Made an average yearly salary by duplicating the salary, using divide column by delimiter, custom column and changing format to decimal.
-- **Exploratory data analysis and dashboard creation**:
+- **Data Exploration and Dashboard Creation**:
   - Made the headline "Data Professionals Survey Breakdown" with a blue background.
   - Made a card with the number of survey takers.
   - Made a card with the average age of survey takers.
