@@ -19,27 +19,20 @@ In this project we used Power BI to analyse the survey answers of data professio
 
 ## Process
 - **Data Cleaning in Power Query Editor**:
-  - Imported the data professionals survey dataset to the Power Query Editor. 
-  - Changed date format from MM/DD/YYYY to DD/MM/YYYY by changing the format to text and then back to date using the USA standard.
-  - Removed empty columns.
-  - Consolidated all "Other" responses into a single category using divide column by delimiter.
-  - Made an average yearly salary by duplicating the salary, using divide column by delimiter, custom column and changing format to decimal.
+  - Imported the data professionals survey dataset. 
+  - Changed date format from MM/DD/YYYY to DD/MM/YYYY by converting to text and then back to date using the U.S. standard.
+  - Removed empty columns and consolidated "Other" responses into a single category by dividing the column by a delimiter. 
+  - Created a new average yearly salary by duplicating the salary, dividing the column by delimiter, using custom column logic and changing the format to decimal. 
 - **Data Exploration and Dashboard Creation**:
-  - Made the headline "Data Professionals Survey Breakdown" with a blue background.
-  - Made a card with the number of survey takers.
-  - Made a card with the average age of survey takers.
-  - Made a stacked bar chart with the survey takers title and average salary.
-  - Made a stacked column chart with the survey takers favorite programming language and number of survey takers. 
-  - Made a treemap with the survey takers country.
-  - Made a gauge showing the survey takers average happiness with their work/life balance.
-  - Made a gauge showing the survey takers average happiness with their salary.
-  - Made a donut chart showing how difficult it was for survey takers to break into data.
-  - Aligned visuals to form a dashboard.
-  - Made text for visuals concise.
-  - Updated the theme and colors to make the dashboard more visually appealing.
+  - Added a headline with a blue background.
+  - Created cards for number of survey takers and average age.
+  - Made a stacked bar chart for job title vs average salary and a stacked column chart over favorite programming languages.
+  - Added a treemap for country distribution and gauges for happiness with work/life balance and salary.
+  - Created a donut chart for difficulty breaking into data.
+  - Aligned and styled visuals into a dashboard with concise text and updated the theme. 
 
 ## Key Findings
-- The average data professional is not happy with their salary and work/life balance.
+- The average data professional is only somewhat happy with their salary and work/life balance.
 - Data scientists earn significantly more than other data positions.
 - Python is by far the most favored programming language.
 
@@ -48,6 +41,6 @@ In this project we used Power BI to analyse the survey answers of data professio
 ![Data Professionals Survey Breakdown](data_professionals_survey_breakdown.png)
 
 ## Conclusion
-Data professionals believe they work too much with too little pay.
+Data professionals believe on average that their work/life balance and salary could be better. 
 
 Data scientist is the most profitable position in data and python is enjoyed by most data professionals.
