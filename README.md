@@ -7,7 +7,7 @@ In this project we used Power BI to analyse the survey answers of data professio
 - Power BI file: [Power BI File](data_professionals_survey_project.pbix)
 - Other projects I have made: [Portfolio Website](https://lucashoffschmidt.github.io/)
 
-## Tools Used
+## Technologies Used
 - **Power BI**: Data cleaning, data exploration and dashboard creation.
 
 ## Project Objectives
