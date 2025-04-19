@@ -2,7 +2,7 @@
 In this project we used Power BI to analyse the survey answers of data professionals, to discover key insights about the field of data analytics. 
 
 ## Quick Links
-- Dataset used: [Dataset](data_professionals_survey_dataset.xlsx)
+- Data professionals survey dataset: [Data Professionals Survey Dataset](data_professionals_survey_dataset.xlsx)
 - Final dashboard: [Dashboard](data_professionals_survey_breakdown.png)
 - Power BI file: [Power BI File](data_professionals_survey_project.pbix)
 - Other projects I have made: [Portfolio Website](https://lucashoffschmidt.github.io/)
