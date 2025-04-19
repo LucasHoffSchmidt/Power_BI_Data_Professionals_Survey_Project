@@ -10,9 +10,6 @@ In this project we used Power BI to analyse the survey answers of data professio
 ## Technologies Used
 - **Power BI**: Data cleaning, data exploration and dashboard creation.
 
-## Data Source
-- [Data Professionals Survey Dataset](data_professionals_survey_dataset.xlsx)
-
 ## Process
 - **Data Cleaning in Power Query Editor**:
   - Imported the data professionals survey dataset. 
