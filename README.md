@@ -19,6 +19,7 @@ In this project we used Power BI to analyse the survey answers of data professio
 
 ## Process
 - **Data Cleaning in Power Query Editor**:
+  - Imported the data professionals survey dataset to the Power Query Editor. 
   - Changed date format from MM/DD/YYYY to DD/MM/YYYY by changing the format to text and then back to date using the USA standard.
   - Removed empty columns.
   - Consolidated all "Other" responses into a single category using divide column by delimiter.
