@@ -22,7 +22,7 @@ In this project we used Power BI to analyse the survey answers of data professio
   - Changed date format from MM/DD/YYYY to DD/MM/YYYY by changing the format to text and then back to date using the USA standard.
   - Removed empty columns.
   - Consolidated all "Other" responses into a single category using divide column by delimiter.
-  - Made an average yearly salary by duplicating the salary, using divide column by delimiter, custom column and changed format to decimal.
+  - Made an average yearly salary by duplicating the salary, using divide column by delimiter, custom column and changing format to decimal.
 - **Exploratory data analysis and dashboard creation**:
   - Made the headline "Data Professionals Survey Breakdown" with a blue background.
   - Made a card with the number of survey takers.
@@ -33,7 +33,7 @@ In this project we used Power BI to analyse the survey answers of data professio
   - Made a gauge showing the survey takers average happiness with their work/life balance.
   - Made a gauge showing the survey takers average happiness with their salary.
   - Made a donut chart showing how difficult it was for survey takers to break into data.
-  - Combined visuals into a dashboard.
+  - Aligned visuals to form a dashboard.
   - Made text for visuals concise.
   - Updated the theme and colors to make the dashboard more visually appealing.
 
